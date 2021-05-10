@@ -73,7 +73,8 @@
  ((:default-abi "FFI_DEFAULT_ABI"))
  #-x86-64
  ((:sysv "FFI_SYSV"))
- ((:unix64 "FFI_UNIX64")))
+ ;; ((:unix64 "FFI_UNIX64"))
+ )
 
 (ctype ffi-abi "ffi_abi")
 
